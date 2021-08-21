@@ -1,0 +1,85 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+.title{
+    font-size: 2.5rem;
+    font-family: 'Alumni Sans', sans-serif;
+    font-weight: bold;
+    flex: 1rem;
+}
+ul{
+    display: flex;
+    align-items: center;
+    
+}
+li{
+    padding: 2rem;
+}
+.links{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 800;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+nav{
+    border-bottom: 1px #fff;
+    position: fixed;
+    width: 100%;
+    color:black;
+}
+.main{
+    display: flex;
+    padding-top: 4rem;
+    height: 90vh;
+}
+.home{
+    background-image: linear-gradient(to right , #A3A847,#FFBCBC);
+}
+.maintext{
+    width: 100%;
+    text-align: right;
+    color: #fff;
+    display: flex;
+    padding-top: 8rem;
+    flex-direction: column;
+    padding: right 1rem; 
+    padding-left: 1rem;
+}
+h1{
+    font-size: 2.7rem;
+    padding-bottom: 3rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+.[11:46 PM, 8/21/2021] Krishna(VIT Chennai): techimg {
+    padding-top: 2rem;
+    height: 30rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.custom-shape-divider-bottom-1629474301 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1629474301 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1629474301 .shape-fill {
+    fill: white;
